@@ -1,21 +1,7 @@
-import "./App.css";
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <Person name={"John"} age={"10"} />
-      <Person name={"Janet"} age={20 + 10} />
-    </div>
-  );
-}
-
-function Person() {
-  return (
-    <div className="App">
-      <h1 className="text-3xl font-bold font-mono text-cyan-300">Name: John</h1>
-      <h2 className="font-bold font-mono text-2xl">Age: 30</h2>
-    </div>
-  );
-}
+const App = () => {
+  return <h1 className="font-bold text-3xl text-cyan-500">App</h1>;
+};
 
 export default App;
